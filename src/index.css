@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer
+  }
+  li:hover {
+    color: rgb(243 244 246);
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    #1C92C3,
+    hsla(204, 100%, 48%, 0.8)
+  )!important;
+}

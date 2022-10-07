@@ -1,4 +1,7 @@
 import React from "react";
+
+import Project from "./Project";
+
 import FrontendStore from "../assets/frontend-store.png";
 import MyFoods from "../assets/my-foods.png";
 import TrybeWallet from "../assets/trybe-wallet.png";
@@ -8,7 +11,7 @@ import TicTacToe from "../assets/tic-tac-toe.png";
 import ReactTestingLibrary from "../assets/react-testing-library.png";
 import Doguinhos from "../assets/doguinhos.jpg";
 import OneForAll from "../assets/one-for-all.jpg";
-import Project from "./Project";
+import Trybesmith from "../assets/trybesmith.jpg";
 
 const Work = () => {
   return (
@@ -80,6 +83,12 @@ const Work = () => {
             desc="LP - Clínica Veterinária"
             demo="https://jpoliveiramateus.github.io/doguinhos/"
             code="https://github.com/jpoliveiramateus/doguinhos"
+          />
+          <Project
+            img={Trybesmith}
+            title="Trybesmith"
+            desc="Loja de itens medievais"
+            code="https://github.com/jpoliveiramateus/trybesmith"
           />
         </div>
       </div>

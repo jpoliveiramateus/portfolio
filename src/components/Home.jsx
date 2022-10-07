@@ -33,11 +33,14 @@ const Home = () => {
               <HiArrowNarrowRight className='ml-3' />
             </span>
           </Link>
-          <button
+          <a
+            href='https://drive.google.com/file/d/1sx-zAzUQwiBdP8pkQ1KdZPX2yvPAKfSr/view?usp=sharing'
+            target="_blank"
             className='w-max text-[#1C92C3] border-2 border-[#1C92C3] px-6 py-3 my-2 flex items-center hover:cursor-pointer hover:bg-white hover:border-white'
+            rel="noreferrer"
           >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
 

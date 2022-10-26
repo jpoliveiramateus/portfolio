@@ -12,6 +12,7 @@ import ReactTestingLibrary from "../assets/react-testing-library.png";
 import Doguinhos from "../assets/doguinhos.jpg";
 import OneForAll from "../assets/one-for-all.jpg";
 import Trybesmith from "../assets/trybesmith.jpg";
+import TFC from '../assets/tfc.png';
 
 const Work = () => {
   return (
@@ -89,6 +90,12 @@ const Work = () => {
             title="Trybesmith"
             desc="Loja de itens medievais"
             code="https://github.com/jpoliveiramateus/trybesmith"
+          />
+          <Project
+            img={TFC}
+            title="Trybe Futebol Clube"
+            desc="Site informativo sobre partidas..."
+            code="https://github.com/jpoliveiramateus/trybe-futebol-clube"
           />
         </div>
       </div>

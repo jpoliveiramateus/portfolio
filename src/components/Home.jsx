@@ -13,13 +13,12 @@ const Home = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString("Welcome!").pauseFor(1000).deleteAll()
-              .typeString("Front-end Developer.").start();
+              .typeString("Full Stack Developer.").start();
             }}
           />
         </div>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          Front-end developer, technology enthusiast, currently looking for his first opportunity in the area,
-          Full Stack development student at Trybe.
+          Technology enthusiast, Full Stack development student at Trybe.
         </p>
         <div className='flex flex-col sm:flex-row sm:gap-4'>
           <Link

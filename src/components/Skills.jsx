@@ -2,7 +2,7 @@ import React from "react";
 
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
+import TypeScript from "../assets/typescript.png";
 import ReactImg from "../assets/react.png";
 import Redux from '../assets/redux.svg';
 import TestingLibray from '../assets/testinglibrary.png';
@@ -30,8 +30,8 @@ const Skills = () => {
             <p className='my-4'>CSS</p>
           </div>
           <div className='pt-4 pb-2 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript icon' />
-            <p className='my-4'>JAVASCRIPT</p>
+            <img className='w-20 mx-auto' src={TypeScript} alt='TypeScript icon' />
+            <p className='my-4'>TYPESCRIPT</p>
           </div>
           <div className='pt-4 pb-2 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactImg} alt='React icon' />

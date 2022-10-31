@@ -15,9 +15,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a Front-end developer, passionate about programming since the first "Hello, World!",
-              specializing in Front-end development and studying Back-end, I'm looking for new challenges and learning.
-              Some of my projects are below. Feel free to contact me, my networks are available here!
+            I'm a Full Stack developer, passionate about programming since the first "Hello, World!",
+            I'm specializing in Back-end development, looking for new challenges and learning.
+            Some of my projects are below. Feel free to contact me, my networks are available here!
             </p>
           </div>
         </div>

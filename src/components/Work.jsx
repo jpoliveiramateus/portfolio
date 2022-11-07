@@ -30,7 +30,6 @@ const Work = () => {
             img={FrontendStore}
             title="Frontend Store"
             desc="Loja online"
-            demo="https://frontend-store-xi.vercel.app/"
             code="https://github.com/jpoliveiramateus/frontend-store"
           />
           <Project
